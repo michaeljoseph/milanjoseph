@@ -40,32 +40,3 @@ def this_year():
     """Returns the current year as an integer"""
     return datetime.now().year
 ```
-
-## Lesson 2: Asking questions and doing maths
-
-### Background: String interpolation
-
-In Python, we can add strings together:
-
-```python
-```
-
-
-
-Using the helper functions `ask` and `this_year`, do the following:
-
-1. Ask the user for their name and store the value in a variable: `name`
-
-1. Ask the user what year they were born and store it in `yob`
-
-1. Ask the user whether they are male or female and store it in `gender`
-
-1. Write some code to print out the following message using the variables:
-
-```
-Hello <name>!
-It's nice to meet you :)
-I'm Milan's first computer program in Python.
-By my calculations, you are <age> Solar Lunar Cycles old.
-And you are a <gender>
-```
