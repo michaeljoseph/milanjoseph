@@ -40,3 +40,6 @@ def this_year():
     """Returns the current year as an integer"""
     return datetime.now().year
 ```
+
+#variables #`print` #functions
+
