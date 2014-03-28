@@ -33,9 +33,9 @@ Using the helper functions `ask` and `this_year`, write code to do the following
 1. Write some code to print out the following message using the variables:
 
 ```
-Hello <name>!
+Hello %(name)s!
 It's nice to meet you :)
 I'm Milan's first computer program in Python.
-By my calculations, you are <age> Solar Lunar Cycles old.
-And you are a <gender>
+By my calculations, you are %(age)d Solar Lunar Cycles old.
+And you are a %(gender)s
 ```
